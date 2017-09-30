@@ -14,22 +14,3 @@ jQuery(function($){
 		}, 5400);
 	});
 });
-// $('.spinButton').on('click', 'function');
-
-// function addStyle (
-// 	$(.logo).addClass(.logo)
-// 	)
-
-
-
-
-
-
-
-// // .preload
-// // .logo 
-// // .loader-frame
-// // .loader1
-// // .loader2
-// // .loader1 
-// // .loader2
