@@ -74,6 +74,12 @@ body {
     left: 49.85%;
     transform: translate(-50%,0);
     position: absolute;
+
+    display: none;
+}
+
+.loader-frame.active{
+    display: block;
 }
 
 .loader1,
@@ -88,7 +94,7 @@ body {
     height: 70px;
     border-top: 5px solid #333;
     border-bottom: 5px solid #333;
-    animation: clockwisespin 1s linear 4;
+    animation: clockwisespin 1s linear infinite;
 }
 
 .loader2 {
@@ -98,7 +104,7 @@ body {
     border-right: 5px solid #FF6633;
     top: 5px;
     left: 5px;
-    animation: anticlockwisespin 1s linear 4;
+    animation: anticlockwisespin 1s linear infinite;
 }
 
 
